@@ -16,12 +16,14 @@ const App = () => {
           <TextInput 
           style={styles.input}
           placeholder='E-mail giriniz..'
+          keyboardType='email-address'
           ></TextInput>
         </View>
         <View>
           <TextInput 
           style={styles.input}
           placeholder='Şifre giriniz..'
+          secureTextEntry={true}
           ></TextInput>
         </View>
       </View>
